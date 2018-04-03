@@ -96,7 +96,6 @@ public class MainActivityFragment extends Fragment {
                 for (int i = 0; i <= guessesInt; i++) {
                     arrayAdapter.add(Names[i]);
                 }
-
                 gridView.setAdapter(arrayAdapter);
             }
 
